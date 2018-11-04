@@ -1,0 +1,38 @@
+﻿@charset 'utf-8';
+
+
+
+
+
+
+
+
+
+/* qq客服 */
+#qqkefu{ position:fixed; _position:absolute; right:0; z-index:999999; bottom: 114px; display:block; color:#555;font-size:12px; margin-right:15px;}
+p{margin:0;padding:0}
+#right_ul{ position:relative;}
+#right_ul li{list-style:none}
+#right_qq{  background:url(../images/iconqq.jpg) no-repeat; width:54px; height:54px; margin-bottom:5px; }
+#right_tel{ background:url(../images/icontel.jpg) no-repeat; width:54px; height:54px; margin-bottom:5px; }
+#right_tip{  background:url(../images/qq_box_bt.png) left bottom no-repeat; width:252px; position:absolute; right:70px; top:-10px; display:none; z-index:999999; padding-bottom:9px;}
+.blank5 {clear:both;height:5px;overflow:hidden;}
+.qq_nav{clear:both;height:20px;overflow:hidden;}
+div.flag_qq { display:none; padding:20px;background:url(../images/flag_right.png) left top no-repeat; }
+div.flag_qq a{text-decoration: none; color:#555;}
+div.flag_tel {padding:20px; background:url(../images/flag_right.png) left top no-repeat;}
+.qq_time {clear:both; height:24px;line-height:24px;padding-left:20px; background:url(../images/time.gif) left center no-repeat;color:#999;}
+.kf_qq {display:block; float:left; width:80px;height:24px; line-height:24px;margin-left:5px; padding-left:40px;  background:url(../images/qq.gif) left top no-repeat;}
+.kf_qq:hover {background:url(../images/qq_hover.gif); color:white;}
+.kf_ww {display:block; float:left; width:80px;height:24px; line-height:24px;margin-left:5px; padding-left:40px;  background:url(../images/w1.gif) left top no-repeat;}
+.kf_ww:hover {background:url(../images/w2.gif); color:white;}
+#right_tip span { display:block; float:left; width:60px; line-height:24px; }
+.kf_tel { font-family:"微软雅黑";font-size:16px; color:#f5b619;}
+.kf_tel b{ font-family: Georgia, "Times New Roman", Times, serif;font-size:24px; color:#f5b619;}
+
+/*backTop*/
+
+#backTop { width: 54px; height: 54px; overflow: hidden; right: 15px; position: fixed; z-index: 100; bottom: 60px; }
+#backTop a {display: block; border-radius: 2px; width: 54px; height: 54px; overflow: hidden; background: url(../images/ico_fix.png) no-repeat 0 -118px; }
+#backTop a:hover{ opacity:0.8;}
+
